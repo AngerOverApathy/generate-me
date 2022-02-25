@@ -1,5 +1,3 @@
-# generate-me
-
 // GIVEN a command-line application that accepts user input
 // WHEN I am prompted for information about my application repository
 // THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -15,3 +13,58 @@
 // THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 // WHEN I click on the links in the Table of Contents
 // THEN I am taken to the corresponding section of the README
+
+const questions = [
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is your project title?',
+    
+    },
+    {
+        type: 'input',
+        name: 'repo',
+        message: 'What is the repository name of your project?',
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'What is the description of your project?',
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Enter instructions for installation',
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'What is the usage information?',
+    },
+    {
+        type: 'input',
+        name: 'contribution',
+        message: 'What are contribution guidelines?',
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'What are the test instructions?',
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license for your project?',
+        choices: ["MIT", "ISC", "GNU GPLv3"],
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your GitHub username?',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
+    }
+];
