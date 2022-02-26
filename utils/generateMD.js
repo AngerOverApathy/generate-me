@@ -2,8 +2,9 @@ function generateMD(data) {
     return `# ${data.title}
 ${data.repo}
 
-## Description
+## Description and Features
 ${data.description}
+${data.features}
 
 ## Installation and Usage
 ${data.installation}

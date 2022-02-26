@@ -37,6 +37,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'features',
+        message: 'Are there any special features?',
+    },
+    {
+        type: 'input',
         name: 'installation',
         message: 'Enter instructions for installation',
     },
@@ -88,7 +93,7 @@ const writeToFile = pageMD => {
     })
 }
 
-function start() {
+function init() {
    return  inquirer.prompt(questions)
     .then(data => {
         //Pass in Template
@@ -100,4 +105,4 @@ function start() {
     })
 }
 
-start();
+init();
