@@ -13,8 +13,10 @@
 // THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 // WHEN I click on the links in the Table of Contents
 // THEN I am taken to the corresponding section of the README
+
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMD = require('./utils/generateMD')
 
 const questions = [
     {
@@ -70,3 +72,32 @@ const questions = [
         message: 'What is your email address?',
     }
 ];
+
+const writeToFile = pageMD => {
+    return new Promise((resolve,reject) => {
+        fs.writeFile('./dist/README.md', pageMD, err => {
+            if(err) {
+                reject(err);
+                return;
+            }
+            resolve({
+                ok: true,
+                message: 'Created Readme'
+            })
+        })
+    })
+}
+
+function start() {
+   return  inquirer.prompt(questions)
+    .then(data => {
+        //Pass in Template
+        console.log(data)
+       return  generateMD(data)
+    })
+    .then(pageMD => {
+        return writeToFile(pageMD)
+    })
+}
+
+start();
