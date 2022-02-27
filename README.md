@@ -6,17 +6,31 @@ A CLI application to help you generate a detailed README. This offers a quick wa
  Clone repository
  Start application by using the following command: node index.js
  You will be asked for the following information
-           *title*
-            *repo* 
+ 
+           *title* 
+           
+            *repo*
+            
             *description*
+            
             *features*
+            
             *installation*
+            
             *usage*
+            
             *contribution*
+            
             *test*
+            
             *license*
+            
             *github*
+            
             *email*
+            
+  After filling out the information, your README will generate.
+  
 
 
 
