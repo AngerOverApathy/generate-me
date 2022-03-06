@@ -1,18 +1,18 @@
-# hooha
-hoohahaha
+# Generate Me
+generate-me
 
 ## Description and Features
-big hooha
+A README generator
 n/a
 
 ## Installation and Usage
-clone git
-n/a
+install node.js and npm inquirer package, clone git repo
+use " node index.js " in CL
 n/a
 n/a
 MIT
 
 ## Reach Out
-hooha
-hoohaaa
+AngerOverApathy
+noveecaine@gmail.com
     
