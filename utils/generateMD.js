@@ -8,7 +8,7 @@ ${data.repo}
 3. [Installation](#installation)
 4. [Usage](#useage)
 5. [Contribution](#contribution)
-6. [Questions] (#questions)
+6. [Questions](#questions)
 
 
 ## Description <a name="description"/>
