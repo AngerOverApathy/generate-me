@@ -10,36 +10,36 @@ ${data.repo}
 5. [Contribution](#contribution)
 6. [Questions] (#questions)
 
-<a name="description"/>
-## Description 
+
+## Description <a name="description"/>
 ${data.description}
 
-<a name="features"/>
-## Features
+
+## Features <a name="features"/>
 ${data.features}
 
-<a name="installation"/>
-## Installation 
+
+## Installation <a name="installation"/>
 ${data.installation}
 
-<a name="usage"/>
-## Usage
+
+## Usage <a name="usage"/>
 ${data.usage}
 
-<a name="contribution"/>
-## Contribution
+
+## Contribution <a name="contribution"/>
 ${data.contribution}
 
-<a name="testing"/>
-## Testing
+
+## Testing <a name="testing"/>
 ${data.test}
 
-<a name="license"/>
-## License
+
+## License <a name="license"/>
 ${data.license}
 
-<a name="questions"/>
-## Questions? Reach Out
+
+## Questions? Reach Out <a name="questions"/>
 ${data.github}
 ${data.email}
     `
