@@ -1,4 +1,4 @@
-# Generate-ME
+# Generate Me
 generate-me
 
 # Table of Contents
@@ -11,15 +11,15 @@ generate-me
 
 
 ## Description <a name="description"/>
-A README generator to make creating READMEs easier and more consistent.
+A README generator that makes creating READMEs easier, with more consistent content.
 
 
 ## Features <a name="features"/>
-N/A
+n/a
 
 
 ## Installation <a name="installation"/>
-Ensure Node.js and npm modules are downloaded. Clone the repository. Start application by typind "node index.js" into your CLI
+Ensure node.js and npm modules are installed. Clone this repo. Call application utilizing CLI and type "node index.js"
 
 
 ## Usage <a name="usage"/>
