@@ -1,5 +1,5 @@
-# ad
-ad
+# Generate-ME
+generate-me
 
 # Table of Contents
 1. [Description](#description)
@@ -11,27 +11,27 @@ ad
 
 
 ## Description <a name="description"/>
-d
+A README generator to make creating READMEs easier and more consistent.
 
 
 ## Features <a name="features"/>
-sad
+N/A
 
 
 ## Installation <a name="installation"/>
-asd
+Ensure Node.js and npm modules are downloaded. Clone the repository. Start application by typind "node index.js" into your CLI
 
 
 ## Usage <a name="usage"/>
-asd
+n/a
 
 
 ## Contribution <a name="contribution"/>
-ad
+n/a
 
 
 ## Testing <a name="testing"/>
-asd
+n/a
 
 
 ## License <a name="license"/>
@@ -39,6 +39,6 @@ MIT
 
 
 ## Questions? Reach Out <a name="questions"/>
-asd
-asd
+AngerOverApathy
+noveecaine@gmail.com
     
